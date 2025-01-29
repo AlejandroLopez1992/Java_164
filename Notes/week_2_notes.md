@@ -70,3 +70,33 @@ note: preincrement is nano seconds slower
 
 after usage:
 value++ and value--
+
+Method key words:
+
+- public: access mode is public, can be called without restrictions
+- static: method belongs to the class. Can be called within the class without mentioning the class beforehand. Without need to exist from a class. Do not need to have an instance of the class object to call a static method.
+
+- <typeOfReturn>
+  - void: no return
+  - Any class or primitive type: String, int, double
+- <listOfParameters> 
+  - list of parameters separated by a comma
+  - Each parameter needs to have it's type and name
+
+- String [] args: array of Strings.
+
+- new: keyword that creates an object from the stated class. Used with a 
+
+- this: keyword. Means "this object/instance". Helps keep track of which variable. Common practice But not required. similar to self in Python
+
+## Objects are building blocks
+
+- Objects contain information in logical order. Allow us to create a standard template for doing things Use the new keyword:
+  - MyCoolObject obj = new MyCoolObject();
+- new Reserves memorty for that 'instance'/object
+
+## Class Constructor
+
+- Special method that has the name of the class, no return, not even void.
+- Can be overloaded, meaning that we have more than one implementation for the method. Same name wiothdifferent parameters.
+- Methods can be called inside of the constructor

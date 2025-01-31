@@ -100,3 +100,12 @@ Method key words:
 - Special method that has the name of the class, no return, not even void.
 - Can be overloaded, meaning that we have more than one implementation for the method. Same name wiothdifferent parameters.
 - Methods can be called inside of the constructor
+
+## printf()
+- Structure:
+  - %(flags)(width)(.precision)specifier
+
+- method for output formatting.
+- Format specifier characher needs to be used - "%"
+- is then followed by a format specifier charachter that indicates the data type 
+- Examples: %c, %d, %o, %h, %f, %e, %s, %%, %n

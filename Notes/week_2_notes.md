@@ -1,4 +1,4 @@
-##Identifiers, Variables, Operators
+## Identifiers, Variables, Operators
 
 Types-
 
@@ -109,3 +109,10 @@ Method key words:
 - Format specifier characher needs to be used - "%"
 - is then followed by a format specifier charachter that indicates the data type 
 - Examples: %c, %d, %o, %h, %f, %e, %s, %%, %n
+
+- Instance Methods:
+  - static methods: belong to the class/ self contained
+  - instance methods: need to access instance variables, uses the data in the object and is unique to that instance
+
+- Casting-
+  - If you want to type cast you it's important to specify the type of value you want it to turn into. example: char what = (char)('A' + 2);

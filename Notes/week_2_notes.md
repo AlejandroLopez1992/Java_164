@@ -110,7 +110,7 @@ Method key words:
 - is then followed by a format specifier charachter that indicates the data type 
 - Examples: %c, %d, %o, %h, %f, %e, %s, %%, %n
 
-- Instance Methods:
+ls- Instance Methods:
   - static methods: belong to the class/ self contained
   - instance methods: need to access instance variables, uses the data in the object and is unique to that instance
 

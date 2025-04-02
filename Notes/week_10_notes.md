@@ -23,3 +23,25 @@
 - instanceof method - Can be used to determine if an object is an instanceof a particular object
   - usage: if (obj instanceof String) {}
   - will return True if obj is an instance of class being compared to or any of it's children/sub classes or interfaces
+
+#### Switch Statements
+
+- switches
+  - a condition that checks each "case" for using ".equals"
+  - consise way to compare against group of options
+
+- case 
+  - the cases to ".equals"
+
+- break
+  - keeps executing code - until break is called
+  - without break code execution continues to fall through
+
+- default 
+  - essentially your else statement or final fall through statement
+
+#### Enumerations
+
+- Declares a name for a new type and possible values for that type
+- Methods can use them and return them
+- Switch + Enumerations are strong combinations
